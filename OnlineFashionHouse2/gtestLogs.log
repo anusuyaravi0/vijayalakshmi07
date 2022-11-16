@@ -1,0 +1,435 @@
+2022-11-16 13:00:43,350 [INFO] com.fashion.gtest.OnlineFashionHouse2Application [restartedMain] Starting OnlineFashionHouse2Application using Java 17.0.4.1 on ANU with PID 23312 (C:\Users\vijay\Documents\workspace-spring-tool-suite-4-4.16.0.RELEASE\java\java\maven\MicroService\OnlineFashionHouse\OnlineFashionHouse\OnlineFashionHouse2\bin\main started by vijay in C:\Users\vijay\Documents\workspace-spring-tool-suite-4-4.16.0.RELEASE\java\java\maven\MicroService\OnlineFashionHouse\OnlineFashionHouse\OnlineFashionHouse2)
+2022-11-16 13:00:43,365 [INFO] com.fashion.gtest.OnlineFashionHouse2Application [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-11-16 13:00:43,566 [INFO] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-11-16 13:00:43,567 [INFO] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-11-16 13:00:44,518 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-11-16 13:00:44,621 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 80 ms. Found 1 JPA repository interfaces.
+2022-11-16 13:00:45,544 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 1111 (http)
+2022-11-16 13:00:45,560 [INFO] org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2022-11-16 13:00:45,563 [INFO] org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-11-16 13:00:45,873 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-11-16 13:00:45,877 [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 2308 ms
+2022-11-16 13:00:46,221 [INFO] org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-11-16 13:00:46,339 [INFO] org.hibernate.Version [restartedMain] HHH000412: Hibernate ORM core version 5.6.12.Final
+2022-11-16 13:00:46,650 [INFO] org.hibernate.annotations.common.Version [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-11-16 13:00:46,776 [INFO] com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2022-11-16 13:00:47,012 [INFO] com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2022-11-16 13:00:47,038 [INFO] org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-11-16 13:00:47,992 [INFO] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-11-16 13:00:48,000 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-11-16 13:00:48,514 [WARN] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-11-16 13:00:48,925 [INFO] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-11-16 13:00:48,979 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 1111 (http) with context path ''
+2022-11-16 13:00:48,999 [INFO] com.fashion.gtest.OnlineFashionHouse2Application [restartedMain] Started OnlineFashionHouse2Application in 6.415 seconds (JVM running for 7.373)
+2022-11-16 13:17:58,402 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-1111-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-11-16 13:17:58,403 [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-1111-exec-2] Initializing Servlet 'dispatcherServlet'
+2022-11-16 13:17:58,405 [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-1111-exec-2] Completed initialization in 1 ms
+2022-11-16 13:25:39,559 [INFO] org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [File Watcher] Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2022-11-16 13:25:39,776 [INFO] org.apache.catalina.core.StandardService [Thread-5] Stopping service [Tomcat]
+2022-11-16 13:25:39,788 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [Thread-5] Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-11-16 13:25:39,806 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [Thread-5] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-11-16 13:25:39,816 [INFO] com.zaxxer.hikari.HikariDataSource [Thread-5] HikariPool-1 - Shutdown initiated...
+2022-11-16 13:25:39,837 [INFO] com.zaxxer.hikari.HikariDataSource [Thread-5] HikariPool-1 - Shutdown completed.
+2022-11-16 13:25:40,004 [INFO] com.fashion.gtest.OnlineFashionHouse2Application [restartedMain] Starting OnlineFashionHouse2Application using Java 17.0.4.1 on ANU with PID 23312 (C:\Users\vijay\Documents\workspace-spring-tool-suite-4-4.16.0.RELEASE\java\java\maven\MicroService\OnlineFashionHouse\OnlineFashionHouse\OnlineFashionHouse2\bin\main started by vijay in C:\Users\vijay\Documents\workspace-spring-tool-suite-4-4.16.0.RELEASE\java\java\maven\MicroService\OnlineFashionHouse\OnlineFashionHouse\OnlineFashionHouse2)
+2022-11-16 13:25:40,005 [INFO] com.fashion.gtest.OnlineFashionHouse2Application [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-11-16 13:25:40,376 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-11-16 13:25:40,396 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 17 ms. Found 1 JPA repository interfaces.
+2022-11-16 13:25:40,709 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 1112 (http)
+2022-11-16 13:25:40,715 [INFO] org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2022-11-16 13:25:40,715 [INFO] org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-11-16 13:25:40,771 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-11-16 13:25:40,772 [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 756 ms
+2022-11-16 13:25:40,853 [INFO] org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-11-16 13:25:40,899 [INFO] com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-2 - Starting...
+2022-11-16 13:25:40,991 [INFO] com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-2 - Start completed.
+2022-11-16 13:25:40,992 [INFO] org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-11-16 13:25:41,114 [INFO] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-11-16 13:25:41,114 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-11-16 13:25:41,264 [WARN] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-11-16 13:25:41,480 [INFO] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-11-16 13:25:41,505 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 1112 (http) with context path ''
+2022-11-16 13:25:41,530 [INFO] com.fashion.gtest.OnlineFashionHouse2Application [restartedMain] Started OnlineFashionHouse2Application in 1.59 seconds (JVM running for 1499.904)
+2022-11-16 13:25:41,535 [INFO] org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2022-11-16 13:26:15,986 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-1112-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-11-16 13:26:15,986 [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-1112-exec-1] Initializing Servlet 'dispatcherServlet'
+2022-11-16 13:26:15,989 [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-1112-exec-1] Completed initialization in 1 ms
+2022-11-16 13:55:45,532 [WARN] com.zaxxer.hikari.pool.HikariPool [HikariPool-2 housekeeper] HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=2m33s939ms176µs700ns).
+2022-11-16 16:02:03,843 [INFO] org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [File Watcher] Restarting due to 2 class path changes (0 additions, 0 deletions, 2 modifications)
+2022-11-16 16:02:04,032 [INFO] org.apache.catalina.core.StandardService [Thread-7] Stopping service [Tomcat]
+2022-11-16 16:02:04,040 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [Thread-7] Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-11-16 16:02:04,091 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [Thread-7] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-11-16 16:02:04,119 [INFO] com.zaxxer.hikari.HikariDataSource [Thread-7] HikariPool-2 - Shutdown initiated...
+2022-11-16 16:02:04,135 [INFO] com.zaxxer.hikari.HikariDataSource [Thread-7] HikariPool-2 - Shutdown completed.
+2022-11-16 16:02:04,360 [INFO] com.fashion.gtest.OnlineFashionHouse2Application [restartedMain] Starting OnlineFashionHouse2Application using Java 17.0.4.1 on ANU with PID 23312 (C:\Users\vijay\Documents\workspace-spring-tool-suite-4-4.16.0.RELEASE\java\java\maven\MicroService\OnlineFashionHouse\OnlineFashionHouse\OnlineFashionHouse2\bin\main started by vijay in C:\Users\vijay\Documents\workspace-spring-tool-suite-4-4.16.0.RELEASE\java\java\maven\MicroService\OnlineFashionHouse\OnlineFashionHouse\OnlineFashionHouse2)
+2022-11-16 16:02:04,360 [INFO] com.fashion.gtest.OnlineFashionHouse2Application [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-11-16 16:02:04,702 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-11-16 16:02:04,726 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 23 ms. Found 1 JPA repository interfaces.
+2022-11-16 16:02:04,924 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 1112 (http)
+2022-11-16 16:02:04,926 [INFO] org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2022-11-16 16:02:04,927 [INFO] org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-11-16 16:02:04,960 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-11-16 16:02:04,961 [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 593 ms
+2022-11-16 16:02:05,026 [INFO] org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-11-16 16:02:05,035 [INFO] com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-3 - Starting...
+2022-11-16 16:02:05,089 [INFO] com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-3 - Start completed.
+2022-11-16 16:02:05,090 [INFO] org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-11-16 16:02:05,167 [INFO] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-11-16 16:02:05,168 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-11-16 16:02:05,301 [WARN] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-11-16 16:02:05,453 [INFO] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-11-16 16:02:05,469 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 1112 (http) with context path ''
+2022-11-16 16:02:05,475 [INFO] com.fashion.gtest.OnlineFashionHouse2Application [restartedMain] Started OnlineFashionHouse2Application in 1.173 seconds (JVM running for 10883.849)
+2022-11-16 16:02:05,477 [INFO] org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2022-11-16 16:03:27,052 [INFO] org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [File Watcher] Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2022-11-16 16:03:27,084 [INFO] org.apache.catalina.core.StandardService [Thread-11] Stopping service [Tomcat]
+2022-11-16 16:03:27,096 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [Thread-11] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-11-16 16:03:27,097 [INFO] com.zaxxer.hikari.HikariDataSource [Thread-11] HikariPool-3 - Shutdown initiated...
+2022-11-16 16:03:27,107 [INFO] com.zaxxer.hikari.HikariDataSource [Thread-11] HikariPool-3 - Shutdown completed.
+2022-11-16 16:03:27,185 [INFO] com.fashion.gtest.OnlineFashionHouse2Application [restartedMain] Starting OnlineFashionHouse2Application using Java 17.0.4.1 on ANU with PID 23312 (C:\Users\vijay\Documents\workspace-spring-tool-suite-4-4.16.0.RELEASE\java\java\maven\MicroService\OnlineFashionHouse\OnlineFashionHouse\OnlineFashionHouse2\bin\main started by vijay in C:\Users\vijay\Documents\workspace-spring-tool-suite-4-4.16.0.RELEASE\java\java\maven\MicroService\OnlineFashionHouse\OnlineFashionHouse\OnlineFashionHouse2)
+2022-11-16 16:03:27,185 [INFO] com.fashion.gtest.OnlineFashionHouse2Application [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-11-16 16:03:27,393 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-11-16 16:03:27,416 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 22 ms. Found 1 JPA repository interfaces.
+2022-11-16 16:03:27,524 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 1112 (http)
+2022-11-16 16:03:27,526 [INFO] org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2022-11-16 16:03:27,526 [INFO] org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-11-16 16:03:27,565 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-11-16 16:03:27,565 [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 371 ms
+2022-11-16 16:03:27,592 [INFO] org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-11-16 16:03:27,606 [INFO] com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-4 - Starting...
+2022-11-16 16:03:27,651 [INFO] com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-4 - Start completed.
+2022-11-16 16:03:27,651 [INFO] org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-11-16 16:03:27,715 [INFO] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-11-16 16:03:27,715 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-11-16 16:03:27,825 [WARN] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-11-16 16:03:27,976 [INFO] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-11-16 16:03:28,012 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 1112 (http) with context path ''
+2022-11-16 16:03:28,046 [INFO] com.fashion.gtest.OnlineFashionHouse2Application [restartedMain] Started OnlineFashionHouse2Application in 0.887 seconds (JVM running for 10966.42)
+2022-11-16 16:03:28,051 [INFO] org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2022-11-16 16:04:13,511 [INFO] org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [File Watcher] Restarting due to 2 class path changes (0 additions, 0 deletions, 2 modifications)
+2022-11-16 16:04:13,531 [INFO] org.apache.catalina.core.StandardService [Thread-15] Stopping service [Tomcat]
+2022-11-16 16:04:13,539 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [Thread-15] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-11-16 16:04:13,541 [INFO] com.zaxxer.hikari.HikariDataSource [Thread-15] HikariPool-4 - Shutdown initiated...
+2022-11-16 16:04:13,551 [INFO] com.zaxxer.hikari.HikariDataSource [Thread-15] HikariPool-4 - Shutdown completed.
+2022-11-16 16:04:13,644 [INFO] com.fashion.gtest.OnlineFashionHouse2Application [restartedMain] Starting OnlineFashionHouse2Application using Java 17.0.4.1 on ANU with PID 23312 (C:\Users\vijay\Documents\workspace-spring-tool-suite-4-4.16.0.RELEASE\java\java\maven\MicroService\OnlineFashionHouse\OnlineFashionHouse\OnlineFashionHouse2\bin\main started by vijay in C:\Users\vijay\Documents\workspace-spring-tool-suite-4-4.16.0.RELEASE\java\java\maven\MicroService\OnlineFashionHouse\OnlineFashionHouse\OnlineFashionHouse2)
+2022-11-16 16:04:13,646 [INFO] com.fashion.gtest.OnlineFashionHouse2Application [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-11-16 16:04:13,908 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-11-16 16:04:13,935 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 26 ms. Found 1 JPA repository interfaces.
+2022-11-16 16:04:14,061 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 1112 (http)
+2022-11-16 16:04:14,064 [INFO] org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2022-11-16 16:04:14,064 [INFO] org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-11-16 16:04:14,095 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-11-16 16:04:14,098 [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 447 ms
+2022-11-16 16:04:14,136 [INFO] org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-11-16 16:04:14,151 [INFO] com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-5 - Starting...
+2022-11-16 16:04:14,202 [INFO] com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-5 - Start completed.
+2022-11-16 16:04:14,203 [INFO] org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-11-16 16:04:14,261 [INFO] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-11-16 16:04:14,262 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-11-16 16:04:14,369 [WARN] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-11-16 16:04:14,462 [INFO] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-11-16 16:04:14,480 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 1112 (http) with context path ''
+2022-11-16 16:04:14,483 [INFO] com.fashion.gtest.OnlineFashionHouse2Application [restartedMain] Started OnlineFashionHouse2Application in 0.875 seconds (JVM running for 11012.858)
+2022-11-16 16:04:14,485 [INFO] org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2022-11-16 16:05:44,121 [INFO] org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [File Watcher] Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2022-11-16 16:05:44,172 [INFO] org.apache.catalina.core.StandardService [Thread-19] Stopping service [Tomcat]
+2022-11-16 16:05:44,180 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [Thread-19] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-11-16 16:05:44,182 [INFO] com.zaxxer.hikari.HikariDataSource [Thread-19] HikariPool-5 - Shutdown initiated...
+2022-11-16 16:05:44,191 [INFO] com.zaxxer.hikari.HikariDataSource [Thread-19] HikariPool-5 - Shutdown completed.
+2022-11-16 16:05:44,291 [INFO] com.fashion.gtest.OnlineFashionHouse2Application [restartedMain] Starting OnlineFashionHouse2Application using Java 17.0.4.1 on ANU with PID 23312 (C:\Users\vijay\Documents\workspace-spring-tool-suite-4-4.16.0.RELEASE\java\java\maven\MicroService\OnlineFashionHouse\OnlineFashionHouse\OnlineFashionHouse2\bin\main started by vijay in C:\Users\vijay\Documents\workspace-spring-tool-suite-4-4.16.0.RELEASE\java\java\maven\MicroService\OnlineFashionHouse\OnlineFashionHouse\OnlineFashionHouse2)
+2022-11-16 16:05:44,292 [INFO] com.fashion.gtest.OnlineFashionHouse2Application [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-11-16 16:05:44,686 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-11-16 16:05:44,710 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 23 ms. Found 1 JPA repository interfaces.
+2022-11-16 16:05:44,776 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 1112 (http)
+2022-11-16 16:05:44,780 [INFO] org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2022-11-16 16:05:44,780 [INFO] org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-11-16 16:05:44,802 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-11-16 16:05:44,803 [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 509 ms
+2022-11-16 16:05:44,838 [INFO] org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-11-16 16:05:44,846 [INFO] com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-6 - Starting...
+2022-11-16 16:05:44,884 [INFO] com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-6 - Start completed.
+2022-11-16 16:05:44,884 [INFO] org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-11-16 16:05:44,934 [INFO] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-11-16 16:05:44,934 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-11-16 16:05:45,003 [WARN] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-11-16 16:05:45,113 [INFO] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-11-16 16:05:45,121 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 1112 (http) with context path ''
+2022-11-16 16:05:45,125 [INFO] com.fashion.gtest.OnlineFashionHouse2Application [restartedMain] Started OnlineFashionHouse2Application in 0.873 seconds (JVM running for 11103.499)
+2022-11-16 16:05:45,126 [INFO] org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2022-11-16 16:06:43,904 [INFO] org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [File Watcher] Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2022-11-16 16:06:43,940 [INFO] org.apache.catalina.core.StandardService [Thread-23] Stopping service [Tomcat]
+2022-11-16 16:06:43,944 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [Thread-23] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-11-16 16:06:43,945 [INFO] com.zaxxer.hikari.HikariDataSource [Thread-23] HikariPool-6 - Shutdown initiated...
+2022-11-16 16:06:43,955 [INFO] com.zaxxer.hikari.HikariDataSource [Thread-23] HikariPool-6 - Shutdown completed.
+2022-11-16 16:06:44,019 [INFO] com.fashion.gtest.OnlineFashionHouse2Application [restartedMain] Starting OnlineFashionHouse2Application using Java 17.0.4.1 on ANU with PID 23312 (C:\Users\vijay\Documents\workspace-spring-tool-suite-4-4.16.0.RELEASE\java\java\maven\MicroService\OnlineFashionHouse\OnlineFashionHouse\OnlineFashionHouse2\bin\main started by vijay in C:\Users\vijay\Documents\workspace-spring-tool-suite-4-4.16.0.RELEASE\java\java\maven\MicroService\OnlineFashionHouse\OnlineFashionHouse\OnlineFashionHouse2)
+2022-11-16 16:06:44,019 [INFO] com.fashion.gtest.OnlineFashionHouse2Application [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-11-16 16:06:44,404 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-11-16 16:06:44,428 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 22 ms. Found 1 JPA repository interfaces.
+2022-11-16 16:06:44,518 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 1112 (http)
+2022-11-16 16:06:44,522 [INFO] org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2022-11-16 16:06:44,525 [INFO] org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-11-16 16:06:44,548 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-11-16 16:06:44,548 [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 526 ms
+2022-11-16 16:06:44,575 [INFO] org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-11-16 16:06:44,582 [INFO] com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-7 - Starting...
+2022-11-16 16:06:44,646 [INFO] com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-7 - Start completed.
+2022-11-16 16:06:44,646 [INFO] org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-11-16 16:06:44,693 [INFO] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-11-16 16:06:44,694 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-11-16 16:06:44,766 [WARN] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-11-16 16:06:44,863 [INFO] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-11-16 16:06:44,880 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 1112 (http) with context path ''
+2022-11-16 16:06:44,886 [INFO] com.fashion.gtest.OnlineFashionHouse2Application [restartedMain] Started OnlineFashionHouse2Application in 0.887 seconds (JVM running for 11163.261)
+2022-11-16 16:06:44,890 [INFO] org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2022-11-16 16:07:50,809 [INFO] org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [File Watcher] Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2022-11-16 16:07:50,820 [INFO] org.apache.catalina.core.StandardService [Thread-27] Stopping service [Tomcat]
+2022-11-16 16:07:50,825 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [Thread-27] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-11-16 16:07:50,825 [INFO] com.zaxxer.hikari.HikariDataSource [Thread-27] HikariPool-7 - Shutdown initiated...
+2022-11-16 16:07:50,831 [INFO] com.zaxxer.hikari.HikariDataSource [Thread-27] HikariPool-7 - Shutdown completed.
+2022-11-16 16:07:50,910 [INFO] com.fashion.gtest.OnlineFashionHouse2Application [restartedMain] Starting OnlineFashionHouse2Application using Java 17.0.4.1 on ANU with PID 23312 (C:\Users\vijay\Documents\workspace-spring-tool-suite-4-4.16.0.RELEASE\java\java\maven\MicroService\OnlineFashionHouse\OnlineFashionHouse\OnlineFashionHouse2\bin\main started by vijay in C:\Users\vijay\Documents\workspace-spring-tool-suite-4-4.16.0.RELEASE\java\java\maven\MicroService\OnlineFashionHouse\OnlineFashionHouse\OnlineFashionHouse2)
+2022-11-16 16:07:50,911 [INFO] com.fashion.gtest.OnlineFashionHouse2Application [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-11-16 16:07:51,266 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-11-16 16:07:51,282 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 14 ms. Found 1 JPA repository interfaces.
+2022-11-16 16:07:51,349 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 1112 (http)
+2022-11-16 16:07:51,352 [INFO] org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2022-11-16 16:07:51,354 [INFO] org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-11-16 16:07:51,386 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-11-16 16:07:51,387 [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 466 ms
+2022-11-16 16:07:51,420 [INFO] org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-11-16 16:07:51,427 [INFO] com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-8 - Starting...
+2022-11-16 16:07:51,485 [INFO] com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-8 - Start completed.
+2022-11-16 16:07:51,485 [INFO] org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-11-16 16:07:51,586 [INFO] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-11-16 16:07:51,586 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-11-16 16:07:51,662 [WARN] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-11-16 16:07:51,750 [INFO] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-11-16 16:07:51,764 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 1112 (http) with context path ''
+2022-11-16 16:07:51,767 [INFO] com.fashion.gtest.OnlineFashionHouse2Application [restartedMain] Started OnlineFashionHouse2Application in 0.884 seconds (JVM running for 11230.141)
+2022-11-16 16:07:51,770 [INFO] org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2022-11-16 16:08:24,037 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-1112-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-11-16 16:08:24,039 [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-1112-exec-2] Initializing Servlet 'dispatcherServlet'
+2022-11-16 16:08:24,040 [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-1112-exec-2] Completed initialization in 1 ms
+2022-11-16 16:12:38,466 [WARN] org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver [http-nio-1112-exec-5] Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'DELETE' not supported]
+2022-11-16 16:13:45,708 [INFO] org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [File Watcher] Restarting due to 2 class path changes (0 additions, 0 deletions, 2 modifications)
+2022-11-16 16:13:45,740 [INFO] org.apache.catalina.core.StandardService [Thread-31] Stopping service [Tomcat]
+2022-11-16 16:13:45,747 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [Thread-31] Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-11-16 16:13:45,753 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [Thread-31] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-11-16 16:13:45,754 [INFO] com.zaxxer.hikari.HikariDataSource [Thread-31] HikariPool-8 - Shutdown initiated...
+2022-11-16 16:13:45,763 [INFO] com.zaxxer.hikari.HikariDataSource [Thread-31] HikariPool-8 - Shutdown completed.
+2022-11-16 16:13:45,833 [INFO] com.fashion.gtest.OnlineFashionHouse2Application [restartedMain] Starting OnlineFashionHouse2Application using Java 17.0.4.1 on ANU with PID 23312 (C:\Users\vijay\Documents\workspace-spring-tool-suite-4-4.16.0.RELEASE\java\java\maven\MicroService\OnlineFashionHouse\OnlineFashionHouse\OnlineFashionHouse2\bin\main started by vijay in C:\Users\vijay\Documents\workspace-spring-tool-suite-4-4.16.0.RELEASE\java\java\maven\MicroService\OnlineFashionHouse\OnlineFashionHouse\OnlineFashionHouse2)
+2022-11-16 16:13:45,834 [INFO] com.fashion.gtest.OnlineFashionHouse2Application [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-11-16 16:13:45,953 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-11-16 16:13:45,969 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 15 ms. Found 1 JPA repository interfaces.
+2022-11-16 16:13:46,018 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 1112 (http)
+2022-11-16 16:13:46,019 [INFO] org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2022-11-16 16:13:46,019 [INFO] org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-11-16 16:13:46,039 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-11-16 16:13:46,039 [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 198 ms
+2022-11-16 16:13:46,062 [INFO] org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-11-16 16:13:46,067 [INFO] com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-9 - Starting...
+2022-11-16 16:13:46,100 [INFO] com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-9 - Start completed.
+2022-11-16 16:13:46,101 [INFO] org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-11-16 16:13:46,136 [INFO] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-11-16 16:13:46,136 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-11-16 16:13:46,200 [WARN] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-11-16 16:13:46,281 [INFO] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-11-16 16:13:46,295 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 1112 (http) with context path ''
+2022-11-16 16:13:46,297 [INFO] com.fashion.gtest.OnlineFashionHouse2Application [restartedMain] Started OnlineFashionHouse2Application in 0.481 seconds (JVM running for 11584.671)
+2022-11-16 16:13:46,299 [INFO] org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2022-11-16 16:14:42,015 [INFO] org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [File Watcher] Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2022-11-16 16:14:42,049 [INFO] org.apache.catalina.core.StandardService [Thread-35] Stopping service [Tomcat]
+2022-11-16 16:14:42,055 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [Thread-35] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-11-16 16:14:42,056 [INFO] com.zaxxer.hikari.HikariDataSource [Thread-35] HikariPool-9 - Shutdown initiated...
+2022-11-16 16:14:42,066 [INFO] com.zaxxer.hikari.HikariDataSource [Thread-35] HikariPool-9 - Shutdown completed.
+2022-11-16 16:14:42,145 [INFO] com.fashion.gtest.OnlineFashionHouse2Application [restartedMain] Starting OnlineFashionHouse2Application using Java 17.0.4.1 on ANU with PID 23312 (C:\Users\vijay\Documents\workspace-spring-tool-suite-4-4.16.0.RELEASE\java\java\maven\MicroService\OnlineFashionHouse\OnlineFashionHouse\OnlineFashionHouse2\bin\main started by vijay in C:\Users\vijay\Documents\workspace-spring-tool-suite-4-4.16.0.RELEASE\java\java\maven\MicroService\OnlineFashionHouse\OnlineFashionHouse\OnlineFashionHouse2)
+2022-11-16 16:14:42,145 [INFO] com.fashion.gtest.OnlineFashionHouse2Application [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-11-16 16:14:42,306 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-11-16 16:14:42,321 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 13 ms. Found 1 JPA repository interfaces.
+2022-11-16 16:14:42,432 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 1112 (http)
+2022-11-16 16:14:42,434 [INFO] org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2022-11-16 16:14:42,435 [INFO] org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-11-16 16:14:42,503 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-11-16 16:14:42,504 [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 357 ms
+2022-11-16 16:14:42,542 [INFO] org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-11-16 16:14:42,547 [INFO] com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-10 - Starting...
+2022-11-16 16:14:42,603 [INFO] com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-10 - Start completed.
+2022-11-16 16:14:42,603 [INFO] org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-11-16 16:14:42,645 [INFO] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-11-16 16:14:42,647 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-11-16 16:14:42,719 [WARN] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-11-16 16:14:42,821 [INFO] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-11-16 16:14:42,831 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 1112 (http) with context path ''
+2022-11-16 16:14:42,842 [INFO] com.fashion.gtest.OnlineFashionHouse2Application [restartedMain] Started OnlineFashionHouse2Application in 0.716 seconds (JVM running for 11641.216)
+2022-11-16 16:14:42,845 [INFO] org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2022-11-16 16:15:13,939 [INFO] org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [File Watcher] Restarting due to 2 class path changes (0 additions, 0 deletions, 2 modifications)
+2022-11-16 16:15:13,956 [INFO] org.apache.catalina.core.StandardService [Thread-39] Stopping service [Tomcat]
+2022-11-16 16:15:13,963 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [Thread-39] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-11-16 16:15:13,964 [INFO] com.zaxxer.hikari.HikariDataSource [Thread-39] HikariPool-10 - Shutdown initiated...
+2022-11-16 16:15:13,974 [INFO] com.zaxxer.hikari.HikariDataSource [Thread-39] HikariPool-10 - Shutdown completed.
+2022-11-16 16:15:14,049 [INFO] com.fashion.gtest.OnlineFashionHouse2Application [restartedMain] Starting OnlineFashionHouse2Application using Java 17.0.4.1 on ANU with PID 23312 (C:\Users\vijay\Documents\workspace-spring-tool-suite-4-4.16.0.RELEASE\java\java\maven\MicroService\OnlineFashionHouse\OnlineFashionHouse\OnlineFashionHouse2\bin\main started by vijay in C:\Users\vijay\Documents\workspace-spring-tool-suite-4-4.16.0.RELEASE\java\java\maven\MicroService\OnlineFashionHouse\OnlineFashionHouse\OnlineFashionHouse2)
+2022-11-16 16:15:14,049 [INFO] com.fashion.gtest.OnlineFashionHouse2Application [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-11-16 16:15:14,177 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-11-16 16:15:14,194 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 15 ms. Found 1 JPA repository interfaces.
+2022-11-16 16:15:14,265 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 1112 (http)
+2022-11-16 16:15:14,265 [INFO] org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2022-11-16 16:15:14,265 [INFO] org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-11-16 16:15:14,297 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-11-16 16:15:14,297 [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 246 ms
+2022-11-16 16:15:14,315 [INFO] org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-11-16 16:15:14,318 [INFO] com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-11 - Starting...
+2022-11-16 16:15:14,351 [INFO] com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-11 - Start completed.
+2022-11-16 16:15:14,352 [INFO] org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-11-16 16:15:14,386 [INFO] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-11-16 16:15:14,386 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-11-16 16:15:14,444 [WARN] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-11-16 16:15:14,567 [INFO] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-11-16 16:15:14,581 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 1112 (http) with context path ''
+2022-11-16 16:15:14,590 [INFO] com.fashion.gtest.OnlineFashionHouse2Application [restartedMain] Started OnlineFashionHouse2Application in 0.558 seconds (JVM running for 11672.963)
+2022-11-16 16:15:14,592 [INFO] org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2022-11-16 16:16:42,050 [INFO] org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [File Watcher] Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2022-11-16 16:16:42,078 [INFO] org.apache.catalina.core.StandardService [Thread-43] Stopping service [Tomcat]
+2022-11-16 16:16:42,083 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [Thread-43] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-11-16 16:16:42,084 [INFO] com.zaxxer.hikari.HikariDataSource [Thread-43] HikariPool-11 - Shutdown initiated...
+2022-11-16 16:16:42,093 [INFO] com.zaxxer.hikari.HikariDataSource [Thread-43] HikariPool-11 - Shutdown completed.
+2022-11-16 16:16:42,166 [INFO] com.fashion.gtest.OnlineFashionHouse2Application [restartedMain] Starting OnlineFashionHouse2Application using Java 17.0.4.1 on ANU with PID 23312 (C:\Users\vijay\Documents\workspace-spring-tool-suite-4-4.16.0.RELEASE\java\java\maven\MicroService\OnlineFashionHouse\OnlineFashionHouse\OnlineFashionHouse2\bin\main started by vijay in C:\Users\vijay\Documents\workspace-spring-tool-suite-4-4.16.0.RELEASE\java\java\maven\MicroService\OnlineFashionHouse\OnlineFashionHouse\OnlineFashionHouse2)
+2022-11-16 16:16:42,166 [INFO] com.fashion.gtest.OnlineFashionHouse2Application [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-11-16 16:16:42,277 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-11-16 16:16:42,287 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 9 ms. Found 1 JPA repository interfaces.
+2022-11-16 16:16:42,334 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 1112 (http)
+2022-11-16 16:16:42,335 [INFO] org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2022-11-16 16:16:42,335 [INFO] org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-11-16 16:16:42,361 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-11-16 16:16:42,361 [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 193 ms
+2022-11-16 16:16:42,381 [INFO] org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-11-16 16:16:42,387 [INFO] com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-12 - Starting...
+2022-11-16 16:16:42,426 [INFO] com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-12 - Start completed.
+2022-11-16 16:16:42,426 [INFO] org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-11-16 16:16:42,465 [INFO] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-11-16 16:16:42,465 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-11-16 16:16:42,531 [WARN] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-11-16 16:16:42,611 [INFO] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-11-16 16:16:42,629 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 1112 (http) with context path ''
+2022-11-16 16:16:42,631 [INFO] com.fashion.gtest.OnlineFashionHouse2Application [restartedMain] Started OnlineFashionHouse2Application in 0.483 seconds (JVM running for 11761.006)
+2022-11-16 16:16:42,634 [INFO] org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2022-11-16 16:17:36,976 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-1112-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-11-16 16:17:36,976 [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-1112-exec-2] Initializing Servlet 'dispatcherServlet'
+2022-11-16 16:17:36,977 [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-1112-exec-2] Completed initialization in 1 ms
+2022-11-16 16:18:13,238 [INFO] com.fashion.gtest.OnlineFashionHouse2Application [restartedMain] Starting OnlineFashionHouse2Application using Java 17.0.4.1 on ANU with PID 17440 (C:\Users\vijay\Documents\workspace-spring-tool-suite-4-4.16.0.RELEASE\java\java\maven\MicroService\OnlineFashionHouse\OnlineFashionHouse\OnlineFashionHouse2\bin\main started by vijay in C:\Users\vijay\Documents\workspace-spring-tool-suite-4-4.16.0.RELEASE\java\java\maven\MicroService\OnlineFashionHouse\OnlineFashionHouse\OnlineFashionHouse2)
+2022-11-16 16:18:13,240 [INFO] com.fashion.gtest.OnlineFashionHouse2Application [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-11-16 16:18:13,334 [INFO] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-11-16 16:18:13,335 [INFO] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-11-16 16:18:14,270 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-11-16 16:18:14,380 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 76 ms. Found 1 JPA repository interfaces.
+2022-11-16 16:18:15,361 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 1112 (http)
+2022-11-16 16:18:15,388 [INFO] org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2022-11-16 16:18:15,391 [INFO] org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-11-16 16:18:15,637 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-11-16 16:18:15,642 [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 2303 ms
+2022-11-16 16:18:15,931 [INFO] org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-11-16 16:18:16,015 [INFO] org.hibernate.Version [restartedMain] HHH000412: Hibernate ORM core version 5.6.12.Final
+2022-11-16 16:18:16,308 [INFO] org.hibernate.annotations.common.Version [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-11-16 16:18:16,419 [INFO] com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2022-11-16 16:18:16,634 [INFO] com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2022-11-16 16:18:16,662 [INFO] org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-11-16 16:18:17,443 [INFO] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-11-16 16:18:17,451 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-11-16 16:18:18,083 [WARN] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-11-16 16:18:18,538 [WARN] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] Unable to start LiveReload server
+2022-11-16 16:18:18,563 [WARN] org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext [restartedMain] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 1112 is already in use
+2022-11-16 16:18:18,572 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [restartedMain] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-11-16 16:18:18,584 [INFO] com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Shutdown initiated...
+2022-11-16 16:18:18,603 [INFO] com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Shutdown completed.
+2022-11-16 16:18:18,611 [INFO] org.apache.catalina.core.StandardService [restartedMain] Stopping service [Tomcat]
+2022-11-16 16:18:18,627 [INFO] org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener [restartedMain] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-11-16 16:18:18,664 [ERROR] org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [restartedMain] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 1112 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 1112 or configure this application to listen on another port.
+
+2022-11-16 16:34:37,877 [INFO] com.fashion.gtest.OnlineFashionHouse2Application [restartedMain] Starting OnlineFashionHouse2Application using Java 17.0.4.1 on ANU with PID 9752 (C:\Users\vijay\Documents\workspace-spring-tool-suite-4-4.16.0.RELEASE\java\java\maven\MicroService\OnlineFashionHouse\OnlineFashionHouse\OnlineFashionHouse2\bin\main started by vijay in C:\Users\vijay\Documents\workspace-spring-tool-suite-4-4.16.0.RELEASE\java\java\maven\MicroService\OnlineFashionHouse\OnlineFashionHouse\OnlineFashionHouse2)
+2022-11-16 16:34:37,879 [INFO] com.fashion.gtest.OnlineFashionHouse2Application [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-11-16 16:34:37,958 [INFO] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-11-16 16:34:37,962 [INFO] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-11-16 16:34:38,971 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-11-16 16:34:39,078 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 82 ms. Found 1 JPA repository interfaces.
+2022-11-16 16:34:40,207 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 1112 (http)
+2022-11-16 16:34:40,230 [INFO] org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2022-11-16 16:34:40,231 [INFO] org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-11-16 16:34:40,467 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-11-16 16:34:40,469 [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 2505 ms
+2022-11-16 16:34:40,758 [INFO] org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-11-16 16:34:40,870 [INFO] org.hibernate.Version [restartedMain] HHH000412: Hibernate ORM core version 5.6.12.Final
+2022-11-16 16:34:41,137 [INFO] org.hibernate.annotations.common.Version [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-11-16 16:34:41,259 [INFO] com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2022-11-16 16:34:41,451 [INFO] com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2022-11-16 16:34:41,481 [INFO] org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-11-16 16:34:42,381 [INFO] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-11-16 16:34:42,389 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-11-16 16:34:43,120 [WARN] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-11-16 16:34:43,916 [WARN] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] Unable to start LiveReload server
+2022-11-16 16:34:43,963 [WARN] org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext [restartedMain] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 1112 is already in use
+2022-11-16 16:34:43,967 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [restartedMain] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-11-16 16:34:43,982 [INFO] com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Shutdown initiated...
+2022-11-16 16:34:44,000 [INFO] com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Shutdown completed.
+2022-11-16 16:34:44,004 [INFO] org.apache.catalina.core.StandardService [restartedMain] Stopping service [Tomcat]
+2022-11-16 16:34:44,036 [INFO] org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener [restartedMain] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-11-16 16:34:44,078 [ERROR] org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [restartedMain] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 1112 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 1112 or configure this application to listen on another port.
+
+2022-11-16 16:45:59,839 [INFO] com.fashion.gtest.Service.DeliveryAgentServiceImplTest [main] Starting DeliveryAgentServiceImplTest using Java 17.0.4.1 on ANU with PID 5492 (started by vijay in C:\Users\vijay\Documents\workspace-spring-tool-suite-4-4.16.0.RELEASE\java\java\maven\MicroService\OnlineFashionHouse\OnlineFashionHouse\OnlineFashionHouse2)
+2022-11-16 16:45:59,844 [INFO] com.fashion.gtest.Service.DeliveryAgentServiceImplTest [main] No active profile set, falling back to 1 default profile: "default"
+2022-11-16 16:46:00,750 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-11-16 16:46:00,838 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 73 ms. Found 1 JPA repository interfaces.
+2022-11-16 16:46:01,682 [INFO] org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-11-16 16:46:01,769 [INFO] org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.12.Final
+2022-11-16 16:46:01,972 [INFO] org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-11-16 16:46:02,134 [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2022-11-16 16:46:02,376 [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2022-11-16 16:46:02,435 [INFO] org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-11-16 16:46:03,461 [INFO] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-11-16 16:46:03,473 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-11-16 16:46:04,335 [WARN] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-11-16 16:46:05,279 [INFO] com.fashion.gtest.Service.DeliveryAgentServiceImplTest [main] Started DeliveryAgentServiceImplTest in 5.874 seconds (JVM running for 7.484)
+2022-11-16 16:46:05,804 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-11-16 16:46:05,809 [INFO] com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2022-11-16 16:46:05,827 [INFO] com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2022-11-16 16:50:53,906 [INFO] com.fashion.gtest.Service.DeliveryAgentServiceImplTest [main] Starting DeliveryAgentServiceImplTest using Java 17.0.4.1 on ANU with PID 22148 (started by vijay in C:\Users\vijay\Documents\workspace-spring-tool-suite-4-4.16.0.RELEASE\java\java\maven\MicroService\OnlineFashionHouse\OnlineFashionHouse\OnlineFashionHouse2)
+2022-11-16 16:50:53,908 [INFO] com.fashion.gtest.Service.DeliveryAgentServiceImplTest [main] No active profile set, falling back to 1 default profile: "default"
+2022-11-16 16:50:54,689 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-11-16 16:50:54,771 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 71 ms. Found 1 JPA repository interfaces.
+2022-11-16 16:50:55,466 [INFO] org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-11-16 16:50:55,532 [INFO] org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.12.Final
+2022-11-16 16:50:55,686 [INFO] org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-11-16 16:50:55,828 [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2022-11-16 16:50:56,065 [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2022-11-16 16:50:56,081 [INFO] org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-11-16 16:50:56,810 [INFO] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-11-16 16:50:56,820 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-11-16 16:50:57,540 [WARN] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-11-16 16:50:58,319 [INFO] com.fashion.gtest.Service.DeliveryAgentServiceImplTest [main] Started DeliveryAgentServiceImplTest in 4.802 seconds (JVM running for 6.25)
+2022-11-16 16:50:58,778 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-11-16 16:50:58,781 [INFO] com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2022-11-16 16:50:58,803 [INFO] com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
